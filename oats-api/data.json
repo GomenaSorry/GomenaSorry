@@ -1,0 +1,1685 @@
+[
+	{
+		"weaponName": "AK-74",
+		"weaponId": "ar_ak74",
+		"weaponClass": "assaultRifle",
+		"caliber": [
+			{
+				"caliberName": "5.45x39mm",
+				"damage": "4d4",
+				"recoil": -5
+			}
+		],
+		"range": 75,
+		"rateOfFire": [
+			"selfLoading",
+			"autoMedium"
+		],
+		"size": "large",
+		"weight": 7.3,
+		"cost": 25,
+		"error": 0,
+		"license": "military and police",
+		"magazine": [
+			{
+				"magType": "box",
+				"magSize": 30,
+				"magCost": 1,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 45,
+				"magCost": 2,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 100,
+				"magCost": 4,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": false,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "Colt M4A1",
+		"weaponId": "ar_coltm4a1",
+		"weaponClass": "assaultRifle",
+		"caliber": [
+			{
+				"caliberName": "5.56x45mm",
+				"damage": "5d4",
+				"recoil": -5
+			}
+		],
+		"range": 70,
+		"rateOfFire": [
+			"selfLoading",
+			"autoFast"
+		],
+		"size": "large",
+		"weight": 6.3,
+		"cost": 58,
+		"error": 0,
+		"license": "military and police",
+		"magazine": [
+			{
+				"magType": "box",
+				"magSize": 5,
+				"magCost": 1,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 10,
+				"magCost": 2,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 20,
+				"magCost": 1,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 30,
+				"magCost": 1,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 100,
+				"magCost": 8,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": true,
+				"tactical": [
+					{
+					"availTactical": true,
+					"slotTactical": 4
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "FN FAL",
+		"weaponId": "ar_fnfal",
+		"weaponClass": "assaultRifle",
+		"caliber": [
+			{
+				"caliberName": "7.62x51mm",
+				"damage": "5d6",
+				"recoil": -6
+			}
+		],
+		"range": 80,
+		"rateOfFire": [
+			"selfLoading",
+			"autoMedium"
+		],
+		"size": "large",
+		"weight": 9.4,
+		"cost": 45,
+		"error": 0,
+		"license": "military and police",
+		"magazine": [
+			{
+				"magType": "box",
+				"magSize": 10,
+				"magCost": 1,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 20,
+				"magCost": 2,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 30,
+				"magCost": 3,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": false,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "Remington M700",
+		"weaponId": "bar_remingtonM700",
+		"weaponClass": "boltActionRifle",
+		"caliber": [
+			{
+				"caliberName": "5.56x45mm",
+				"damage": "5d4",
+				"recoil": -5
+			}
+		],
+		"range": 125,
+		"rateOfFire": [
+			"bolt"
+		],
+		"size": "large",
+		"weight": 6,
+		"cost": 40,
+		"error": 0,
+		"license": "licensed",
+		"magazine": [
+			{
+				"magType": "integrated",
+				"magSize": 5,
+				"magCost": 1,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": true,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "M24A3 SWS",
+		"weaponId": "bar_m24a3sws",
+		"weaponClass": "boltActionRifle",
+		"caliber": [
+			{
+				"caliberName": ".338 Lapua Magnum",
+				"damage": "7d8",
+				"recoil": -10
+			}
+		],
+		"range": 330,
+		"rateOfFire": [
+			"bolt"
+		],
+		"size": "large",
+		"weight": 11.9,
+		"cost": 124,
+		"error": 0,
+		"license": "licensed",
+		"magazine": [
+			{
+				"magType": "box",
+				"magSize": 5,
+				"magCost": 2,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": true,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "Steyr Scout",
+		"weaponId": "bar_steyrscout",
+		"weaponClass": "boltActionRifle",
+		"caliber": [
+			{
+				"caliberName": ".243 Winchester",
+				"damage": "4d6+2",
+				"recoil": -6
+			}
+		],
+		"range": 105,
+		"rateOfFire": [
+			"bolt"
+		],
+		"size": "large",
+		"weight": 6.6,
+		"cost": 100,
+		"error": 0,
+		"license": "licensed",
+		"magazine": [
+			{
+				"magType": "box",
+				"magSize": 5,
+				"magCost": 2,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 10,
+				"magCost": 5,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": true,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "H&K MP5A5",
+		"weaponId": "smg_hkmp5a5",
+		"weaponClass": "subMachineGun",
+		"caliber": [
+			{
+				"caliberName": "9x19mm",
+				"damage": "2d6",
+				"recoil": -2
+			}
+		],
+		"range": 50,
+		"rateOfFire": [
+			"selfLoading",
+			"autoMedium",
+			"2RoundBurst"
+		],
+		"size": "large",
+		"weight": 6.8,
+		"cost": 45,
+		"error": 0,
+		"license": "military and police",
+		"magazine": [
+			{
+				"magType": "box",
+				"magSize": 15,
+				"magCost": 1,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 30,
+				"magCost": 2,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 100,
+				"magCost": 10,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": true,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "FN P90",
+		"weaponId": "smg_fnp90",
+		"weaponClass": "subMachineGun",
+		"caliber": [
+			{
+				"caliberName": "5.7x28mm",
+				"damage": "3d4-1",
+				"recoil": -3
+			}
+		],
+		"range": 60,
+		"rateOfFire": [
+			"selfLoading",
+			"autoFast"
+		],
+		"size": "medium",
+		"weight": 6.0,
+		"cost": 55,
+		"error": 0,
+		"license": "military and police",
+		"magazine": [
+			{
+				"magType": "box",
+				"magSize": 30,
+				"magCost": 1,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 50,
+				"magCost": 2,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": true,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "Vityaz-SN",
+		"weaponId": "smg_vityazsn",
+		"weaponClass": "subMachineGun",
+		"caliber": [
+			{
+				"caliberName": "9x19mm",
+				"damage": "2d6",
+				"recoil": -2
+			}
+		],
+		"range": 30,
+		"rateOfFire": [
+			"selfLoading",
+			"autoSlow"
+		],
+		"size": "large",
+		"weight": 6.4,
+		"cost": 40,
+		"error": 0,
+		"license": "military and police",
+		"magazine": [
+			{
+				"magType": "box",
+				"magSize": 30,
+				"magCost": 1,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"tactical": [
+					{
+					"availTactical": true,
+					"slotTactical": 4
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "FN M249",
+		"weaponId": "mg_fnm249",
+		"weaponClass": "machineGun",
+		"caliber": [
+			{
+				"caliberName": "5.56x45mm",
+				"damage": "5d4",
+				"recoil": -5
+			}
+		],
+		"range": 100,
+		"rateOfFire": [
+			"autoFast",
+			"openBolt"
+		],
+		"size": "large",
+		"weight": 6.0,
+		"cost": 55,
+		"error": 0,
+		"license": "military and police",
+		"magazine": [
+			{
+				"magType": "box",
+				"magSize": 5,
+				"magCost": 1,
+				"magError": 25
+			},
+			{
+				"magType": "box",
+				"magSize": 10,
+				"magCost": 2,
+				"magError": 25
+			},
+			{
+				"magType": "box",
+				"magSize": 20,
+				"magCost": 1,
+				"magError": 25
+			},
+			{
+				"magType": "box",
+				"magSize": 30,
+				"magCost": 1,
+				"magError": 25
+			},
+			{
+				"magType": "box",
+				"magSize": 100,
+				"magCost": 8,
+				"magError": 25
+			},
+			{
+				"magType": "linked",
+				"magSize": 100,
+				"magCost": 2,
+				"magError": 0
+			},
+			{
+				"magType": "linked",
+				"magSize": 200,
+				"magCost": 4,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": true,
+				"tactical": [
+					{
+					"availTactical": true,
+					"slotTactical": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "PKM",
+		"weaponId": "mg_pkm",
+		"weaponClass": "machineGun",
+		"caliber": [
+			{
+				"caliberName": "7.62x54mmR",
+				"damage": "5d6+2",
+				"recoil": -7
+			}
+		],
+		"range": 100,
+		"rateOfFire": [
+			"autoMedium",
+			"openBolt"
+		],
+		"size": "large",
+		"weight": 16.5,
+		"cost": 65,
+		"error": 15,
+		"license": "military and police",
+		"magazine": [
+			{
+				"magType": "linked",
+				"magSize": 100,
+				"magCost": 2,
+				"magError": 0
+			},
+			{
+				"magType": "linked",
+				"magSize": 200,
+				"magCost": 4,
+				"magError": 0
+			},
+			{
+				"magType": "linked",
+				"magSize": 100,
+				"magCost": 5,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": false,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "M60E4",
+		"weaponId": "mg_m60e4",
+		"weaponClass": "machineGun",
+		"caliber": [
+			{
+				"caliberName": "7.62x51mm",
+				"damage": "5d6",
+				"recoil": -6
+			}
+		],
+		"range": 120,
+		"rateOfFire": [
+			"autoMedium",
+			"openBolt"
+		],
+		"size": "large",
+		"weight": 23.1,
+		"cost": 90,
+		"error": 10,
+		"license": "military and police",
+		"magazine": [
+			{
+				"magType": "linked",
+				"magSize": 100,
+				"magCost": 2,
+				"magError": 0
+			},
+			{
+				"magType": "linked",
+				"magSize": 200,
+				"magCost": 4,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": true,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "Makarov PM",
+		"weaponId": "hg_makarovpm",
+		"weaponClass": "handGun",
+		"caliber": [
+			{
+				"caliberName": "9x18mm PM",
+				"damage": "2d4+1",
+				"recoil": -1
+			}
+		],
+		"range": 25,
+		"rateOfFire": [
+			"doubleAction",
+			"singleAction"
+		],
+		"size": "small",
+		"weight": 1.6,
+		"cost": 10,
+		"error": 0,
+		"license": "licensed",
+		"magazine": [
+			{
+				"magType": "magazine",
+				"magSize": 8,
+				"magCost": 1,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": false,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+    {
+		"weaponName": "Colt M1911A1",
+		"weaponId": "hg_glock18",
+		"weaponClass": "handGun",
+		"caliber": [
+			{
+				"caliberName": ".45 ACP",
+				"damage": "3d4+2",
+				"recoil": -4
+			}
+		],
+		"range": 30,
+		"rateOfFire": [
+			"singleAction"
+		],
+		"size": "small",
+		"weight": 2.4,
+		"cost": 25,
+		"error": 0,
+		"license": "licensed",
+		"magazine": [
+			{
+				"magType": "magazine",
+				"magSize": 7,
+				"magCost": 1,
+				"magError": 0
+			},
+			{
+				"magType": "magazine",
+				"magSize": 8,
+				"magCost": 1,
+				"magError": 0
+			},
+			{
+				"magType": "magazine",
+				"magSize": 10,
+				"magCost": 1,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": false,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "Glock 18",
+		"weaponId": "hg_glock18",
+		"weaponClass": "handGun",
+		"caliber": [
+			{
+				"caliberName": "9x19mm",
+				"damage": "2d6",
+				"recoil": -2
+			}
+		],
+		"range": 35,
+		"rateOfFire": [
+			"presetAction",
+			"autoFast"
+		],
+		"size": "small",
+		"weight": 1.3,
+		"cost": 25,
+		"error": 0,
+		"license": "military and police",
+		"magazine": [
+			{
+				"magType": "magazine",
+				"magSize": 17,
+				"magCost": 1,
+				"magError": 0
+			},
+			{
+				"magType": "magazine",
+				"magSize": 19,
+				"magCost": 1,
+				"magError": 0
+			},
+			{
+				"magType": "magazine",
+				"magSize": 27,
+				"magCost": 1,
+				"magError": 0
+			},
+			{
+				"magType": "magazine",
+				"magSize": 33,
+				"magCost": 2,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": false,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "AA-12",
+		"weaponId": "sg_aa12",
+		"weaponClass": "shotGun",
+		"caliber": [
+			{
+				"caliberName": "12 Gauge",
+				"damage": "5d6",
+				"recoil": -6
+			}
+		],
+		"range": 45,
+		"rateOfFire": [
+			"openBolt",
+			"autoSlow",
+			"selfLoading"
+		],
+		"size": "large",
+		"weight": 15,
+		"cost": 55,
+		"error": 5,
+		"license": "military and police",
+		"magazine": [
+			{
+				"magType": "box",
+				"magSize": 8,
+				"magCost": 2,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 20,
+				"magCost": 4,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 32,
+				"magCost": 6,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": false,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "Benneli M1 Super 90",
+		"weaponId": "sg_benellim1super90",
+		"weaponClass": "shotGun",
+		"caliber": [
+			{
+				"caliberName": "12 Gauge",
+				"damage": "5d6",
+				"recoil": -6
+			},
+			{
+				"caliberName": "20 Gauge",
+				"damage": "4d6",
+				"recoil": -5
+			}
+		],
+		"range": 50,
+		"rateOfFire": [
+			"selfLoading"
+		],
+		"size": "large",
+		"weight": 7,
+		"cost": 50,
+		"error": 0,
+		"license": "licensed",
+		"magazine": [
+			{
+				"magType": "integrated",
+				"magSize": 7,
+				"magCost": 1,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": false,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "Franchi SPAS12",
+		"weaponId": "sg_SPAS12",
+		"weaponClass": "shotGun",
+		"caliber": [
+			{
+				"caliberName": "12 Gauge",
+				"damage": "5d6",
+				"recoil": -6
+			}
+		],
+		"range": 45,
+		"rateOfFire": [
+			"selfLoading",
+			"pumpAction"
+		],
+		"size": "large",
+		"weight": 8.8,
+		"cost": 50,
+		"error": 0,
+		"license": "licensed",
+		"magazine": [
+			{
+				"magType": "integrated",
+				"magSize": 7,
+				"magCost": 1,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": false,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "SVD",
+		"weaponId": "mr_svd",
+		"weaponClass": "marksmanRifle",
+		"caliber": [
+			{
+				"caliberName": "7.62x54mmR",
+				"damage": "5d6+2",
+				"recoil": -7
+			}
+		],
+		"range": 115,
+		"rateOfFire": [
+			"selfLoading"
+		],
+		"size": "large",
+		"weight": 9.4,
+		"cost": 55,
+		"error": 0,
+		"license": "licensed",
+		"magazine": [
+			{
+				"magType": "box",
+				"magSize": 10,
+				"magCost": 2,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": true,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "FN SCAR-H LB",
+		"weaponId": "mr_scarhlb",
+		"weaponClass": "marksmanRifle",
+		"caliber": [
+			{
+				"caliberName": "7.62x51mm",
+				"damage": "5d6",
+				"recoil": -6
+			}
+		],
+		"range": 90,
+		"rateOfFire": [
+			"selfLoading",
+			"autoMedium"
+		],
+		"size": "large",
+		"weight": 7.7,
+		"cost": 90,
+		"error": 0,
+		"license": "military and police",
+		"magazine": [
+			{
+				"magType": "box",
+				"magSize": 20,
+				"magCost": 3,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": true,
+				"tactical": [
+					{
+					"availTactical": true,
+					"slotTactical": 3
+					}
+				]
+			}
+		]
+	},
+	{
+		"weaponName": "M21 SWS",
+		"weaponId": "mr_m21sws",
+		"weaponClass": "marksmanRifle",
+		"caliber": [
+			{
+				"caliberName": "7.62x51mm",
+				"damage": "5d6",
+				"recoil": -6
+			}
+		],
+		"range": 190,
+		"rateOfFire": [
+			"selfLoading"
+		],
+		"size": "large",
+		"weight": 11.6,
+		"cost": 155,
+		"error": 0,
+		"license": "licensed",
+		"magazine": [
+			{
+				"magType": "box",
+				"magSize": 5,
+				"magCost": 1,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 10,
+				"magCost": 2,
+				"magError": 0
+			},
+			{
+				"magType": "box",
+				"magSize": 20,
+				"magCost": 3,
+				"magError": 0
+			}
+		],
+		"upgrade": [
+			{
+				"frame": true,
+				"barrel": true,
+				"optics": true,
+				"tactical": [
+					{
+					"availTactical": false,
+					"slotTactical": 0
+					}
+				]
+			}
+		]
+	},
+	{
+        "armorName": "MOLLE Vest",
+        "armorId": "arm_mollevest",
+        "armorType": "tactical",
+        "armorClass": "light",
+        "equipmentBonus": 0,
+        "maxAgiBonus": 6,
+        "armorPenalty": 0,
+        "combatPointLoss": 0,
+        "weight": 3.0,
+        "cost": 8,
+        "damageReduction":[
+            {
+                "type": "None",
+                "value": 0
+            }
+        ]
+    },
+	{
+        "armorName": "Undercover Vest",
+        "armorId": "arm_undercovervest",
+        "armorType": "concealable",
+        "armorClass": "light",
+        "equipmentBonus": 1,
+        "maxAgiBonus": 4,
+        "armorPenalty": -1,
+        "combatPointLoss": 0,
+        "armorPoints": 30,
+        "weight": 3.0,
+        "cost": 16,
+        "damageReduction":[
+            {
+                "type": "ballistic",
+                "value": 10
+            }
+        ]
+    },
+	{
+        "armorName": "Plastron",
+        "armorId": "arm_plastron",
+        "armorType": "impromptu",
+        "armorClass": "light",
+        "equipmentBonus": 2,
+        "maxAgiBonus": 4,
+        "armorPenalty": -1,
+        "combatPointLoss": 0,
+        "armorPoints": 16,
+        "weight": 3.0,
+        "cost": 10,
+        "damageReduction":[
+            {
+                "type": "slashing",
+                "value": 4
+            },
+			{
+                "type": "piercing",
+                "value": 4
+            }
+        ]
+    },
+	{
+        "armorName": "Motorcycle Armor",
+        "armorId": "arm_motorcyclearmor",
+        "armorType": "impromptu",
+        "armorClass": "medium",
+        "equipmentBonus": 2,
+        "maxAgiBonus": 5,
+        "armorPenalty": -1,
+        "combatPointLoss": 1,
+        "armorPoints": 20,
+        "weight": 5.0,
+        "cost": 11,
+        "damageReduction":[
+            {
+                "type": "ballistic",
+                "value": 4
+            },
+			{
+                "type": "slashing",
+                "value": 4
+            }
+        ]
+    },
+	{
+        "armorName": "Concealable Fight Vest",
+        "armorId": "arm_concealablefightvest",
+        "armorType": "concealable",
+        "armorClass": "medium",
+        "equipmentBonus": 2,
+        "maxAgiBonus": 3,
+        "armorPenalty": -1,
+        "combatPointLoss": 2,
+        "armorPoints": 20,
+        "weight": 4.0,
+        "cost": 20,
+        "damageReduction":[
+            {
+                "type": "ballistic",
+                "value": 4
+            },
+            {
+                "type": "piercing",
+                "value": 4
+            },
+			{
+                "type": "slashing",
+                "value": 4
+            }
+        ]
+    },
+	{
+        "armorName": "Tactical Vest",
+        "armorId": "arm_tacticalvest",
+        "armorType": "tactical",
+        "armorClass": "medium",
+        "equipmentBonus": 4,
+        "maxAgiBonus": 2,
+        "armorPenalty": -3,
+        "combatPointLoss": 2,
+        "armorPoints": 65,
+        "weight": 9.0,
+        "cost":32,
+        "damageReduction":[
+            {
+                "type": "ballistic",
+                "value": 13
+            },
+            {
+                "type": "slashing",
+                "value": 4
+            }
+        ]
+    },
+	{
+        "armorName": "Red Man Suit",
+        "armorId": "arm_redmansuit",
+        "armorType": "tactical",
+        "armorClass": "heavy",
+        "equipmentBonus": 3,
+        "maxAgiBonus": 1,
+        "armorPenalty": -5,
+        "combatPointLoss": 3,
+        "armorPoints": 50,
+        "weight": 12.0,
+        "cost": 24,
+        "damageReduction":[
+            {
+                "type": "ballistic",
+                "value": 10
+            },
+			{
+                "type": "unarmed",
+                "value": 9
+            }
+        ]
+    },
+	{
+        "armorName": "Special Response Vest",
+        "armorId": "arm_specialresponsevest",
+        "armorType": "tactical",
+        "armorClass": "heavy",
+        "equipmentBonus": 5,
+        "maxAgiBonus": 1,
+        "armorPenalty": -5,
+        "combatPointLoss": 3,
+        "armorPoints": 108,
+        "weight": 17.0,
+        "cost": 45,
+        "damageReduction":[
+            {
+                "type": "ballistic",
+                "value": 18
+            },
+			{
+                "type": "piercing",
+                "value": 18
+            },
+			{
+                "type": "slashing",
+                "value": 6
+            }
+        ]
+    },
+	{
+        "armorName": "EOD Suit",
+        "armorId": "arm_eodsuit",
+        "armorType": "tactical",
+        "armorClass": "heavy",
+        "equipmentBonus": 4,
+        "maxAgiBonus": 0,
+        "armorPenalty": -7,
+        "combatPointLoss": 4,
+        "armorPoints": 50,
+        "weight": 35.0,
+        "cost": 95,
+        "damageReduction":[
+            {
+                "type": "concussion",
+                "value": 40
+            },
+			{
+                "type": "piercing",
+                "value": 40
+            },
+			{
+                "type": "slashing",
+                "value": 40
+            }
+        ]
+    },
+	{
+        "armorName": "Motorcyle Helmet",
+        "armorId": "arm_motorcyclehelmet",
+        "armorType": "improvised",
+        "armorPoints": 12,
+        "weight": 1.9,
+        "cost": 12,
+        "damageReduction":[
+            {
+                "type": "ballistic",
+                "value": 6
+            },
+			{
+                "type": "slashing",
+                "value": 6
+            }
+        ]
+    },
+	{
+        "armorName": "Ballistic Combat Helmet",
+        "armorId": "arm_ballisticcombathelmet",
+        "armorType": "tactical",
+        "armorPoints": 20,
+        "weight": 3.0,
+        "cost": 10,
+        "damageReduction":[
+            {
+                "type": "ballistic",
+                "value": 5
+            },
+			{
+                "type": "slashing",
+                "value": 5            },
+			{
+                "type": "bludgeoning",
+                "value": 5
+            }
+        ]
+    },
+	{
+        "armorName": "Riot Helmet",
+        "armorId": "arm_riothelmet",
+        "armorType": "tactical",
+        "armorPoints": 18,
+        "weight": 3.0,
+        "cost": 3,
+        "damageReduction":[
+			{
+                "type": "bludgeoning",
+                "value": 8
+            }
+        ]
+    },
+	{
+        "explosiveName": "Impact Grenade",
+		"explosiveId": "ex_impactgrenade",
+		"explosiveType": "grenade",
+        "damage": "4d6",
+        "damageType": "slashing",
+        "blastRadius": 15,
+        "woundRadius": 30,
+        "range": 10,
+		"size": "tiny",
+        "weight": 1.0,
+        "cost": 3,
+        "license": "military and police"
+    },
+	{
+        "explosiveName": "Smoke Grenade",
+		"explosiveId": "ex_smokegrenade",
+		"explosiveType": "grenade",
+        "range": 10,
+		"size": "tiny",
+        "weight": 1.0,
+        "cost": 1,
+        "license": "military and police"
+    },
+	{
+        "explosiveName": "Dynamite Stick",
+		"explosiveId": "ex_dynamitestick",
+		"explosiveType": "grenade",
+        "damage": "2d12",
+        "damageType": "concussion",
+        "blastRadius": 20,
+        "woundRadius": 40,
+        "range": 10,
+		"size": "tiny",
+        "weight": 0.3,
+        "cost": 3,
+        "license": "restricted"
+    },
+	{
+        "explosiveName": "Anti-Tank Mine",
+		"explosiveId": "ex_antitankmine",
+		"explosiveType": "charge",
+        "damage": "6d10",
+        "damageType": "concussion",
+        "blastRadius": 5,
+        "woundRadius": 10,
+		"size": "large",
+        "weight": 20,
+        "cost": 20,
+        "license": "military and police"
+    },
+	{
+        "explosiveName": "Fire Jar",
+		"explosiveId": "ex_firejar",
+		"explosiveType": "charge",
+        "damage": "1d6",
+        "damageType": "fire",
+        "blastRadius": 5,
+        "woundRadius": 10,
+		"size": "small",
+        "weight": 1.0,
+        "cost": 1,
+        "license": "improvised"
+    },
+	{
+        "explosiveName": "Satchel Charge",
+		"explosiveId": "ex_satchelcharge",
+		"explosiveType": "charge",
+        "damage": "7d10",
+        "damageType": "concussion",
+        "blastRadius": 5,
+        "woundRadius": 10,
+		"size": "medium",
+        "weight": 5.0,
+        "cost": 15,
+        "license": "military and police"
+    },
+	{
+        "componentName": "Extended Barrel",
+        "componentId": "uwr_extendedbarrel",
+        "compatibility": [
+            "assaultRifle",
+			"marksmanRifle",
+			"boltActionRifle",
+			"handGun",
+			"shotGun",
+			"subMachineGun",
+			"machineGun"
+        ],
+        "location": [
+			"barrel"
+		],
+        "cost": 15,
+        "time": "1 hour",
+        "weight": 0.2
+    },
+	{
+        "componentName": "Muzzle Break",
+        "componentId": "uwr_muzzlebreak",
+        "compatibility": [
+			"allRangedWeapons"
+        ],
+        "location": [
+			"barrel"
+		],
+		"cost": [
+			{
+                "quality": "standard",
+                "cost": 7
+            }
+		],
+        "time": "10 CP",
+        "weight": 1.0
+    },
+	{
+        "componentName": "Suppressor",
+        "componentId": "uwr_suppressor",
+		"compatibility": [
+            "assaultRifle",
+			"marksmanRifle",
+			"boltActionRifle",
+			"handGun",
+			"shotGun",
+			"subMachineGun",
+			"machineGun"
+        ],
+        "location": [
+            "barrel"
+        ],
+		"cost": [
+            {
+                "quality": "low",
+                "cost": 3
+            },
+			{
+                "quality": "standard",
+                "cost": 7
+            },
+			{
+                "quality": "high",
+                "cost": 15
+            }
+		],
+        "time": "10 CP",
+        "weight": 1.0,
+        "license": "restricted"
+    },
+	{
+        "componentName": "Red Dot Sights",
+        "componentId": "uwr_reddotsights",
+        "compatibility": [
+            "allRangedWeapons"
+        ],
+        "location": [
+            "optics"
+        ],
+        "cost": [
+            {
+                "quality": "standard",
+                "cost": 12
+            }
+        ],
+        "time": "30 mins",
+        "weight": 0.9
+    },
+	{
+        "componentName": "Telescopic Sight, 9.1-12x",
+        "componentId": "uwr_telescopicsights9.112x",
+        "compatibility": [
+            "allRangedWeapons"
+        ],
+        "location": [
+            "optics"
+        ],
+        "cost": [
+            {
+                "quality": "standard",
+                "cost": 5
+            }
+        ],
+        "time": "30 mins",
+        "weight": 1.3
+    },
+	{
+        "componentName": "Multi-Mode Laser Sight",
+        "componentId": "uwr_multimodelasersight",
+        "compatibility": [
+            "allRangedWeapons"
+        ],
+        "location": [
+            "optics",
+			"tactical"
+        ],
+        "cost": [
+            {
+                "quality": "standard",
+                "cost": 32
+            }
+        ],
+        "time": "30 mins",
+        "weight": 0.8
+    },
+	{
+        "componentName": "Custom Grip",
+        "componentId": "uwr_customgrip",
+        "compatibility": [
+            "handgun"
+        ],
+        "location": [
+            "frame"
+        ],
+        "cost": [
+            {
+                "quality": "standard",
+                "cost": 12
+            }
+        ],
+        "time": "8 hours"
+    },
+	{
+        "componentName": "Folding Stock",
+        "componentId": "uwr_foldingstock",
+		"compatibility": [
+            "assaultRifle",
+			"marksmanRifle",
+			"boltActionRifle",
+			"subMachineGun",
+			"machineGun"
+        ],
+        "location": [
+			"frame"
+        ],
+        "cost": [
+            {
+                "quality": "standard",
+                "cost": 6
+            }
+        ],
+        "time": "30 mins",
+        "weight": 2.3
+    },
+	{
+        "componentName": "Pistol Grip",
+        "componentId": "uwr_pistolgrip",
+		"compatibility": [
+            "assaultRifle",
+			"marksmanRifle",
+			"boltActionRifle",
+			"subMachineGun",
+			"machineGun"
+        ],
+        "location": [
+			"frame"
+        ],
+        "cost": [
+            {
+                "quality": "standard",
+                "cost": 1
+            }
+        ],
+        "time": "30 mins",
+        "weight": 0.5
+    },
+	{
+        "componentName": "Tactical Flashlight",
+        "componentId": "uwr_tacticalflashlight",
+        "compatibility": [
+            "allRangedWeapons"
+        ],
+        "location": [
+            "frame",
+			"optics",
+			"tactical"
+        ],
+        "cost": [
+            {
+                "quality": "standard",
+                "cost": 4
+            }
+        ],
+        "time": "5 mins",
+        "weight": 0.6
+    },
+	{
+        "componentName": "Patrol Sling",
+        "componentId": "uwr_patrolsling",
+        "compatibility": [
+			"assaultRifle",
+			"marksmanRifle",
+			"boltActionRifle",
+			"subMachineGun",
+			"machineGun"
+        ],
+        "cost": [
+            {
+                "quality": "standard",
+                "cost": 1
+            }
+        ],
+        "time": "5 mins",
+        "weight": 0.3
+    },
+	{
+        "componentName": "Vertical Foregrip",
+        "componentId": "uwr_verticalforegrip",
+        "compatibility": [
+            "mediumFirearm",
+			"largeFirearm"
+        ],
+        "location": [
+            "frame",
+			"tactical"
+        ],
+        "cost": [
+            {
+                "quality": "standard",
+                "cost": 5
+            }
+        ],
+        "time": "5 mins",
+        "weight": 0.5,
+        "license": "string"
+    },
+	{
+        "componentName": "Camouflage Patterning",
+        "componentId": "ua_camouflagepatterning",
+        "cost": 2
+    },
+	{
+        "componentName": "MOLLE Fitting",
+        "componentId": "ua_mollefitting",
+        "cost": 1
+    },
+	{
+        "componentName": "Limb Protector, Medium",
+        "componentId": "ua_limbprotectormedium",
+        "cost": 14
+    }
+]

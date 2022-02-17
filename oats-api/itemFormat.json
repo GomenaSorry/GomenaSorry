@@ -1,0 +1,101 @@
+[
+    {
+        "weaponName": "string",
+        "weaponId": "string",
+        "weaponClass": "string",
+        "caliber": [
+            {
+                "caliberName": "string",
+                "damage": "string",
+                "recoil": 0
+            }
+        ],
+        "range": 0,
+        "rateOfFire": [
+            "string"
+        ],
+        "size": "string",
+        "weight": 0.1,
+        "cost": 0,
+        "error": 0,
+        "license": "string",
+        "magazine": [
+            {
+                "magType": "string",
+                "magSize": 0,
+                "magCost": 0,
+                "magError": 0
+            }
+        ],
+        "upgrade": [
+            {
+                "frame": false,
+                "barrel": false,
+                "optics": false,
+                "tactical": [
+                    {
+                    "availTactical": false,
+                    "slotTactical": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "armorName": "string",
+        "armorId": "string",
+        "armorType": "string",
+        "armorClass": "string",
+        "equipmentBonus": 0,
+        "maxAgiBonus": 0,
+        "armorPenalty": 0,
+        "combatPointLoss": 0,
+        "armorPoints": 0,
+        "weight": 0.1,
+        "cost": 0,
+        "damageReduction":[
+            {
+                "type": "string",
+                "value": 0
+            }
+        ]
+    },
+    {
+        "explosiveName": "string",
+        "exposiveId": "string",
+        "explosiveType": "string",
+        "damage": "string",
+        "damageType": "string",
+        "blastRadius": 0,
+        "woundRadius": 0,
+        "range": 0,
+        "size": "string",
+        "weight": 0.1,
+        "cost": 0,
+        "license": "string"
+    },
+    {
+        "componentName": "string",
+        "componentId": "string",
+        "compatibility": [
+            "string"
+        ],
+        "location": [
+            "string"
+        ],
+        "cost": [
+            {
+                "quality": "string",
+                "cost": 0
+            }
+        ],
+        "time": "string",
+        "weight": 0.1,
+        "license": "string"
+    },
+    {
+        "componentName": "string",
+        "componentId": "string",
+        "cost": 0
+    }
+]
